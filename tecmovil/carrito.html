@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de productos</title>
+    <link rel="stylesheet" href="./assets/css/catalogo.css">
+</head>
+<body>
+    <section class="wrapper">
+        <aside>
+            <header>
+                <a href="index.html"><h1 class="logo">TECMOVIL</h1></a> 
+            </header>
+            <nav>
+                <ul>    
+                    <li><a class= "boton-menu boton-volver" href="catalogo.html">Seguir comprando</a></li>
+                    <li><a class= "boton-menu boton-carrito active" href="#">Carrito</a></li>
+                </ul>
+            </nav>
+            <footer class="texto-footer">© TECMOVIL</footer>
+        </aside>
+        <main>  
+            <h2 class="titulo-principal">Carrito</h2>
+            <section class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio</p>
+                <div id="carrito-productos"class="carrito-productos">
+                    <div class="carrito-producto">
+                     </div>
+                </div>
+               
+                <div id="carrito-acciones" class="acciones-carrito">
+                    <div class="acciones-izquierda">
+                        <button class="carrito-vaciar"> VACIAR CARRITO</button>
+                    </div>
+                    <div class="acciones-derecha">
+                        <div class="carrito-total">
+                            <p>TOTAL:</p>
+                            <p id="total"></p>
+                        </div>
+                        <button class="carrito-comprar">COMPRAR AHORA</button>
+                    </div>
+            </section>
+            
+        </main>
+    </section>
+
+    <script src="./assets/js/carrito.js"></script>
+</body>
+</html>
