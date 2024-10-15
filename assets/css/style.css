@@ -825,11 +825,14 @@ h3 > a { color: inherit; }
  * #MEDIA QUARIES
 \*-----------------------------------*/
 
+
+
 /**
  * responsive for larger than 480px screen
  */
 
-@media (min-width: 480px) {
+
+@media (max-width: 480px) {
 
   /**
    * CUSTOM PROPERTY
@@ -846,7 +849,9 @@ h3 > a { color: inherit; }
 
   }
 
-
+  .header .container img{
+    width: 80px;
+  }
 
   /**
    * CATEGORY
@@ -925,6 +930,11 @@ h3 > a { color: inherit; }
 
 @media (min-width: 768px) {
 
+
+  .header .container .logo img{
+    height: 100px;
+    border-radius: 2rem;
+  }
   /**
    * REUSED STYLE
    */
@@ -1090,6 +1100,7 @@ h3 > a { color: inherit; }
   .header .logo { margin-inline: auto; }
   .header .logo img{
     border-radius: 2rem;
+    height: fit-content;
   }
 
   .nav-open-btn,
