@@ -848,6 +848,13 @@ h3 > a { color: inherit; }
 
   }
 
+  .hero-subtitle{
+    color: whitesmoke;
+  }  
+
+  .hero-title{
+    color: blanchedalmond;
+  }
   .header .container img{
     width: 80px;
   }
