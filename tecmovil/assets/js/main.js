@@ -138,7 +138,7 @@ const productos = [
       {
         id: "Bose-SOUNDLINKFLEX",
         titulo: "SOUNDLINK FLEX",
-        imagen: "/assets/images/bose/SOUNDLINKFLEX.jpeg",
+        imagen: "assets/images/bose/SOUNDLINKFLEX.jpeg",
         categoria: {
           nombre: "Bose-SOUNDLINKFLEX",
           id: "Bose"
@@ -147,7 +147,7 @@ const productos = [
       {
         id: "Bose-QUIETCOMFORTHEADPHONES",
         titulo: "QUIETCOMFORT HEADPHONES",
-        imagen: "/assets/images/bose/bosequietcomfort.png",
+        imagen: "assets/images/bose/bosequietcomfort.png",
         categoria: {
           nombre: "Bose-QUIETCOMFORTHEADPHONES",
           id: "Bose"
@@ -156,7 +156,7 @@ const productos = [
       {
         id: "Bose-ULTRAOPENEARBUDS",
         titulo: "ULTRA OPEN EARBUDS",
-        imagen: "/assets/images/bose/openearbuds.png",
+        imagen: "assets/images/bose/openearbuds.png",
         categoria: {
           nombre: "Bose-ULTRAOPENEARBUDS",
           id: "Bose"
@@ -165,7 +165,7 @@ const productos = [
       {
         id: "Bose-NOISECANCELLING700",
         titulo: "NOISE CANCELLING 700",
-        imagen: "/assets/images/bose/noisecancelling700.png",
+        imagen: "assets/images/bose/noisecancelling700.png",
         categoria: {
           nombre: "Bose-NOISECANCELLING700",
           id: "Bose"

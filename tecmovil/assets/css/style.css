@@ -718,7 +718,7 @@ h3 > a { color: inherit; }
 }
 
 .footer .logo { margin-bottom: 20px; }
-
+.footer .logo img{border-radius: 5rem; width: 20%;}
 .footer-text {
   line-height: 1.6;
   margin-bottom: 20px;
@@ -1088,6 +1088,9 @@ h3 > a { color: inherit; }
   .header-search .search-btn ion-icon { --ionicon-stroke-width: 30px; }
 
   .header .logo { margin-inline: auto; }
+  .header .logo img{
+    border-radius: 2rem;
+  }
 
   .nav-open-btn,
   .header-action-btn:nth-child(2),
