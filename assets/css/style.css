@@ -443,7 +443,6 @@ h3 > a { color: inherit; }
 
 .category-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -1070,6 +1069,10 @@ h3 > a { color: inherit; }
     align-items: center;
   }
 
+  .header .container .logo img{
+    height: auto;
+  }
+
   .header-search {
     display: block;
     position: relative;
@@ -1154,7 +1157,7 @@ h3 > a { color: inherit; }
    * CATEGORY
    */
 
-  .category-list > li:not(:first-child, :nth-child(2)) { width: calc(25% - 22.5px); }
+  .category-list > li:not(:first-child, :nth-child(2)) { width: calc(100% - 22.5px); }
 
 
 
