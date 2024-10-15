@@ -311,3 +311,15 @@
   gap: 1rem;
 
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 480px) {
+  
+ 
+  .contenedor-productos{
+   display: flex;
+   flex-direction: column;
+  }
+
+}
