@@ -26,3 +26,7 @@ window.addEventListener("scroll", function () {
   window.scrollY >= 200 ? header.classList.add("active")
     : header.classList.remove("active");
 })
+
+const carrito = () =>{
+  window.location='carrito.html'
+}
