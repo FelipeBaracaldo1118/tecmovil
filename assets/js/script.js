@@ -30,3 +30,6 @@ window.addEventListener("scroll", function () {
 const carrito = () =>{
   window.location='carrito.html'
 }
+const catalogo = () =>{
+  window.location='catalogo.html'
+}
